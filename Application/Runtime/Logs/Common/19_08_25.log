@@ -1,0 +1,18 @@
+[ 2019-08-25T00:10:55+08:00 ] 103.115.41.90 /index.php?m=search&c=index&a=init&typeid=53&siteid=1&q=www.ymwears.cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Search
+
+[ 2019-08-25T11:48:20+08:00 ] 117.69.128.117 /index.php?m=formguide&c=index&a=show&formid=1&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Formguide
+
+[ 2019-08-25T11:48:22+08:00 ] 117.69.128.117 /index.php?m=formguide&c=index&a=show&formid=1&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Formguide
+

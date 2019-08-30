@@ -1,0 +1,52 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">任务管理</h1>
+            <span class="pagedesc">管理商城中的用户任务信息</span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+			<div class="tableoptions">                    
+				<button class="radius3" onclick="location.href='{:U('edit')}'">发布任务</button>
+			</div><!--tableoptions-->
+
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+				<thead>
+					<tr>
+						<th class="head1">任务名称</th>
+						<th class="head1">任务奖励</th>
+						<th class="head1">任务状态(点击可切换状态)</th>
+						<th class="head0">发布日期</th>
+						<th class="head0">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.title}</td>
+						<td>{$vo.value}&nbsp;<if condition="$vo['way'] eq 1">账户积分<else />账户金额</if></td>
+						<td>
+							<if condition="$vo['status'] eq 1">
+								<a href="{:U('setStatus',array('id'=>$vo['id'],'status'=>0))}" style="color:blue">当前启用</a>
+							<else />
+								<a href="{:U('setStatus',array('id'=>$vo['id'],'status'=>1))}" style="color:blue">当前禁用</a>
+							</if>
+						</td>
+						<td>{$vo.create_time|date="Y-m-d",###}</td>
+						<td class="center">
+							<a href="{:U('list', 'id='.$vo['id'])}">审核会员</a> | 
+							<a href="{:U('edit', 'id='.$vo['id'])}">修改</a> | 
+							<a href="{:U('del', 'id='.$vo['id'])}" onclick="return confirm('你确实要删除吗？')">删除</a>
+						</td>
+					</tr>
+					</volist>
+				</tbody>
+			</table>
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+			</div>
+        
+        </div><!--contentwrapper-->
+        

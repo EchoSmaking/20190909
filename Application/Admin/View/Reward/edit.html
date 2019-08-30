@@ -1,0 +1,40 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">发放月度分红</h1>
+            <span class="pagedesc">请认真填写各项信息，提交后不可撤销，符合发放条件用户如下：</span>
+        </div><!--pageheader-->
+        
+       
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+				<thead>
+					<tr>
+						<th class="head0">用户ID</th>
+						<th class="head1">用户等级</th>
+						<th class="head1">月度积分</th>
+						<th class="head1">发放金额</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.user_id}</td>
+						<td>{$_level[$vo['level']]['name']}</td>
+						<td>{$vo.self_point}</td>
+						<td>{:getMlevel($vo['user_id'],1)}</td>
+					</tr>
+					</volist>
+				</tbody>
+			</table>
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+			</div>
+             
+            <form class="stdform stdform2" method="post">
+				<p class="stdformbutton">
+					<button class="submit radius2">一键发放</button>
+				</p>
+			</form>
+        
+        </div><!--contentwrapper-->
+        

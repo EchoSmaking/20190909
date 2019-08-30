@@ -1,0 +1,555 @@
+[ 2019-08-21T10:44:48+08:00 ] 14.127.250.29 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+
+[ 2019-08-21T10:44:48+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:02+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+
+[ 2019-08-21T10:45:02+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: info D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\AdminController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:06+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 31 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.218717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.218717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:12+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 25,25   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 30 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:18+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 50,25   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:25+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 75,25   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:31+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index&p=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 100,25   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:41+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\apxl8888\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 75,25   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2019-08-21T10:45:47+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=edit&id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_paper` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:47+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2019-08-21T10:45:47+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:45:47+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=upload&event=setPic1&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2019-08-21T10:45:48+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 1  [ RunTime:0.0000s ]
+
+[ 2019-08-21T10:46:48+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=edit&id=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+SQL: UPDATE `dd_paper` SET `title`='三集一体除湿热泵通用介绍二',`keyword`='',`describe`='',`store_cate`='1',`cate_tree`='1',`pic`='',`pic1`='',`body`='<p style=\"text-align: left;\"><span style=\"font-size: 18px;\"><strong style=\"line-height: 1.5;\"><span style=\"color: rgb(34, 34, 34); letter-spacing: 0pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: 宋体; line-height: 24px;\">产品参数：</span></strong></span><br/></p><p><strong><span style=\"background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;\"></span></strong></p><table cellpadding=\"2\" cellspacing=\"0\" border=\"0\" style=\"text-align: left; color: rgb(34, 34, 34); font-family: 宋体; font-size: 24px; letter-spacing: 0pt; line-height: 24px; white-space: normal; width: 100%;\"><tbody><tr class=\"firstRow\"><td style=\"text-align: center; word-break: break-all;\"><p style=\"text-indent: 32.15pt;\"><strong><span style=\"font-family: 宋体; font-size: 16pt;\">三集一体除湿热泵参数选型（表2</span></strong><strong><span style=\"font-family: 宋体; font-size: 16pt;\">）</span></strong><span style=\"line-height: 1.5; letter-spacing: 0pt; text-indent: 21pt;\"></span></p></td></tr><tr><td style=\"text-align: center;\"><img src=\"https://pro860020-pic37.websiteonline.cn/upload/beng2.png\" width=\"550\" height=\"814\" alt=\"\" style=\"padding-right: 0px;\"/><strong style=\"line-height: 1.5;\"><span style=\"letter-spacing: 0pt; font-family: 宋体; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial; line-height: 24px; font-size: 24px;\"></span></strong></td></tr></tbody></table><p style=\"text-align: left; color: rgb(34, 34, 34); font-family: 宋体; letter-spacing: 0pt; line-height: 24px; white-space: normal;\"><strong><span style=\"font-size: 18px;\"><strong style=\"\"><span style=\"font-family: 宋体; line-height: 24px;\">三集一体除湿热泵机组方案系统图:</span></strong></span><strong style=\"font-size: 16px; font-family: sans-serif;\"><span style=\"background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;\"></span></strong></strong></p><p style=\"text-align: center; color: rgb(34, 34, 34); font-family: 宋体; font-size: 24px; letter-spacing: 0pt; line-height: 24px; white-space: normal; display: inline !important;\"><strong><img src=\"https://pro860020-pic37.websiteonline.cn/upload/tdyk.png\" alt=\"\" style=\"font-size: 14pt; letter-spacing: 0pt; line-height: 21pt; text-indent: 28.1pt; padding-right: 0px;\"/></strong></p><p><strong><span style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 24px; line-height: 24px;\"><br/></span></strong></p><p><strong><span style=\"color:#222222;font-family:宋体;\"></span></strong></p><p><strong><span style=\"font-size: 18px;\"><strong style=\"font-family: &#39;sans serif&#39;, tahoma, verdana, helvetica; line-height: 1.5;\"><span style=\"background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial; color: rgb(34, 34, 34); font-family: 宋体; letter-spacing: 0pt; line-height: 24px;\">室内恒温泳池普遍存在的问题:</span></strong></span></strong></p><table style=\"text-align: left; width: 100%;\" cellpadding=\"2\" cellspacing=\"0\" border=\"0\"><tbody><tr class=\"firstRow\"><td style=\"text-align: center;\"><img src=\"https://pro860020-pic37.websiteonline.cn/upload/1.png\" width=\"600\" height=\"372\" alt=\"\" style=\"padding-right: 0px;\"/><br/></td></tr><tr><td style=\"text-align: center;\"><img src=\"https://pro860020-pic37.websiteonline.cn/upload/2.png\" width=\"600\" height=\"376\" alt=\"\" style=\"white-space: normal; padding-right: 0px;\"/><br/></td></tr></tbody></table><p style=\"text-align: left;\"><br/></p><p style=\"text-align: left; line-height: 1.5;\"><span style=\"font-size: 18px;\"><strong><span style=\"color: rgb(34, 34, 34); letter-spacing: 0pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: 宋体; line-height: 24px;\">室内恒温泳池问题解决方案</span></strong></span><strong><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 16pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></strong></p><p style=\"text-align: left; line-height: 1.5;\"><span style=\"font-size: 16px;\"><strong><span style=\"color: rgb(34, 34, 34); letter-spacing: 0pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: 宋体; line-height: 24px;\">危害人体健康对策</span></strong></span><strong><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 16pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></strong></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-family: 宋体; line-height: 24px;\">采用</span><span style=\"line-height: 24px;\">“艾普西龙”游泳馆专用恒温除湿热泵机组。</span></span><span style=\"font-family: Arial; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: 宋体; line-height: 24px;\">系统经过合理科学的设计，可对室内游泳馆空气进行恒温恒湿。</span><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">·配置的智能新风系统，可以自动补充新风，确保泳池内的空气清新。</span><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"line-height: 24px;\">·配置等离子消毒装置，通过电流高压脉冲形成超高频脉冲放电、电离氧化空气中的细菌、病毒</span><span style=\"font-family: Arial; line-height: 24px;\">TVOC</span><span style=\"font-family: 宋体; line-height: 24px;\">物质</span><span style=\"font-family: Arial; line-height: 24px;\">PM2.5</span><span style=\"font-family: 宋体; line-height: 24px;\">等物质。</span></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">·配置高效活性炭过滤装置、有效去除游离氯离子气味。</span><span style=\"font-family: Arial; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-size: 16px;\"><strong><span style=\"color: rgb(34, 34, 34); letter-spacing: 0pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: 宋体; line-height: 24px;\">建筑物腐蚀、结露、安全隐患对策</span></strong></span><strong><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></strong></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-family: 宋体; line-height: 24px;\">采用</span><span style=\"line-height:24px;\">“艾普西龙”游泳池专用恒温除湿热泵机组，系统经过科学合理设计，在对游泳馆内空气进行恒温除湿的同时，可对泳池池水进行恒温，新风可进行回收，室内湿度全自动智能控制。</span></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">·配置全智能微电脑控制系统，多点检测方式、智能设定，智能处理，有效的防止空气湿度过大，使游泳区的水分不再对周围建筑造成破坏。</span><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"></span></p><p style=\"text-align: left; line-height: 21pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 12pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">·负压系统设计为了避免游泳空间的含氯对临近房间的影响，“艾普西龙”设计排风量大于新风量，使泳池空间内一直保持负压状态，确保其他新鲜空气从其他房间门窗细缝进入泳池空间。</span></p><p><span style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 12pt; letter-spacing: 0pt; line-height: 24px;\">·设备自身防腐设计，主机系统压缩机等配件独立设计，与风系系统独立开，保证压缩机核心不被氯气腐蚀。所有风道面板采用双层烤漆镀锌钢板内嵌</span><span style=\"color: rgb(34, 34, 34); font-size: 12pt; letter-spacing: 0pt; line-height: 24px; font-family: Arial;\">PU20MM</span><span style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 12pt; letter-spacing: 0pt; line-height: 24px;\">隔音隔热材料，内板采用</span><span style=\"color: rgb(34, 34, 34); font-size: 12pt; letter-spacing: 0pt; line-height: 24px; font-family: Arial;\">1.2MM</span><span style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 12pt; letter-spacing: 0pt; line-height: 24px;\">厚镀锌钢板，并防腐处理凡暴露于回风中螺母，螺栓以及锁紧垫圈均采用防腐处理，凡暴露于回风中的钢板螺钉均为不锈钢材料。池水冷凝器采用铜镍合金材料制作，有效防止泳池水的氯腐蚀。</span></p><p><span style=\"font-size: 16px;\"><strong style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 12pt; letter-spacing: 0pt; line-height: 21pt; text-indent: 126.5pt;\"><strong style=\"font-size: 12pt; letter-spacing: 0pt; line-height: 21pt; text-indent: 126.5pt;\"><span style=\"letter-spacing: 0pt; line-height: 24px; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;\">传统方式VS艾普西龙除湿热泵</span></strong></strong></span></p><p><strong style=\"color: rgb(34, 34, 34); font-family: 宋体; font-size: 12pt; letter-spacing: 0pt; line-height: 21pt; text-indent: 126.5pt;\"></strong></p><p><strong style=\"line-height: 1.5; text-indent: 28.1pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">传统方式</span></strong><strong style=\"line-height: 1.5; text-indent: 28.1pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; font-size: 14pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">：</span></strong><span style=\"text-indent: 28.1pt; font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">春秋季节和冬季，室内环境空气干燥，采用中央空调供暖降室外干燥空气加热至适宜温度送入池厅，同时将池厅中高温高湿的空气排出室外，降低室内空气的相对湿度；夏季室外空气温度高，湿度大，不宜引入室内，采用中央空调制冷除湿，将室内空气中水蒸气冷凝排走，从而降低室内空气相对湿度，保持室内泳池空气的恒温恒湿。</span></p><p style=\"text-indent: 28.1pt;\"><span style=\"line-height:24px;\"></span></p><p style=\"text-align: left;\"><span style=\"font-size: 16px;\"><strong style=\"line-height: 1.5; text-indent: 28.1pt;\"><span style=\"font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">艾普西龙除湿热泵:</span></strong><span style=\"text-indent: 28.1pt; font-family: 宋体; color: rgb(34, 34, 34); letter-spacing: 0pt; line-height: 24px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">为解决传统方式的问题而设计生产，它集除湿、空气调节、热回收 、池水加热、处理新风多项功能于一体，为了节省能源，设备运行过程中对空气热量进行充分回收利用，回收的热量通过再生系统对泳池空气或池水进行加热，确保室内空气处于恒温状态。除湿产生的冷凝水可直接排放到室外或回收到泳池内对池水进行补充。</span></span></p><p style=\"text-align: center;\"><img src=\"https://pro860020-pic37.websiteonline.cn/upload/cqr3.png\" width=\"600\" height=\"412\" alt=\"\" style=\"line-height: 1.5;\"/></p><p><span style=\"line-height: 1.5;\"></span><span style=\"display:none;\"></span></p><p style=\"text-align: center;\"><img src=\"https://pro860020-pic37.websiteonline.cn/upload/90za.png\" width=\"600\" height=\"354\" alt=\"\" style=\"line-height: 1.5;\"/></p><p><span style=\"text-indent: 21pt; color: rgb(51, 51, 51); letter-spacing: 0pt; font-family: 宋体; line-height: 24px; font-size: 16px; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;\">三集一体除湿热泵具备了除湿功能、空调制冷功能、室内空气加热功能、新风处理功能、池水热泵辅助加热功能。利用压缩机的做功和制冷剂的特性，产生冷量和热量，冷量用来冷凝除湿，热量用来加热泳池水，达到一份能量两份使用的效果。</span></p><p><span style=\"line-height: 21pt; text-indent: 21pt; letter-spacing: 0pt; font-family: Arial; color: rgb(51, 51, 51); background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial; font-size: 16px;\"></span></p><p><span style=\"font-family: 宋体, SimSun;\">气流循环流程:室内空气→风管回风口→回风管→静压箱→除湿热泵机组→排风(污浊湿空气排到室外)→新风、回风混合→制冷除湿→加热→送风→静压箱→送风管→送风口→室内</span></p><p><span style=\"font-family: 宋体, SimSun;\">排风系统:室内空气→排风机→静态箱→排风管→排风口→室外</span></p><p><span style=\"font-family: 宋体, SimSun;\">新风系统:室外空气→新风口→新风管→除湿热泵→室内</span></p><p><br/></p><p><span style=\"line-height: 1.5;\"></span></p>' WHERE ( id=37 ) [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_paper` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:46:49+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0000s ]
+
+[ 2019-08-21T10:46:49+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=upload&event=setPic1&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:46:49+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-21T10:46:50+08:00 ] 14.127.250.29 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 1  [ RunTime:0.0000s ]
+

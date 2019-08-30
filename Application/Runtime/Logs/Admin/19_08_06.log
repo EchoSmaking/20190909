@@ -1,0 +1,1857 @@
+[ 2019-08-06T08:53:42+08:00 ] ::1 /newsapxl/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2510s ]
+
+[ 2019-08-06T08:53:42+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1200s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T08:53:52+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0616s ]
+
+[ 2019-08-06T08:53:52+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0648s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T08:54:00+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-08-06T08:54:08+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2019-08-06T08:54:09+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0310s ]
+
+[ 2019-08-06T08:54:10+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T08:54:32+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 21  [ RunTime:0.0330s ]
+
+[ 2019-08-06T08:55:21+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0770s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0580s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T08:55:22+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0300s ]
+
+[ 2019-08-06T08:55:22+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:00+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+NOTIC: [8] Undefined index: pid D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0 ORDER BY sort desc  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\21058cfef33750ecc9a5ae39b1e1f0e4.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:02+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=cate_edit&pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0340s ]
+NOTIC: [8] Undefined index: id D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 207 行.
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 216 行.
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 217 行.
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 229 行.
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 235 行.
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\3f42209d6ffd06b03d3e4dcede497baa.php 第 244 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2019-08-06T09:05:03+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.3030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T09:05:11+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=cate_edit&pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: id D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 141 行.
+NOTIC: [8] Use of undefined constant IS_ADMIN - assumed 'IS_ADMIN' D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined index: id D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 71 行.
+SQL: INSERT INTO `dd_product_cate` (`name`,`pic`,`sort`,`is_show`,`url`,`pid`) VALUES ('电控箱','','0','0','','0') [ RunTime:0.1100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:13+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=cate&pid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0 ORDER BY sort desc  [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:15+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: pid D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 114 行.
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0 ORDER BY sort desc  [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pid D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\21058cfef33750ecc9a5ae39b1e1f0e4.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:30+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T09:05:33+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:05:33+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0350s ]
+
+[ 2019-08-06T09:05:34+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-06T09:05:49+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 22  [ RunTime:0.0320s ]
+
+[ 2019-08-06T09:05:57+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0624s ]
+NOTIC: [8] Undefined index: field D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 111 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: cur_index D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T09:06:05+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0330s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('电控箱','','','22','22','./Public/upload/images/1908/06/090557888757003374.jpg','','1565053565') [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2019-08-06T09:06:06+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0690s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0320s ]
+
+[ 2019-08-06T09:06:07+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:06:15+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 21  [ RunTime:0.0430s ]
+
+[ 2019-08-06T09:06:18+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 22  [ RunTime:0.0320s ]
+
+[ 2019-08-06T09:16:54+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0650s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0910s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.1240s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0920s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0510s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0740s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0960s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0740s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0860s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0760s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0700s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0960s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:16:57+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:16:58+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0330s ]
+
+[ 2019-08-06T09:16:59+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:17:07+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 20  [ RunTime:0.0310s ]
+
+[ 2019-08-06T09:17:30+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1066s ]
+NOTIC: [8] Undefined index: field D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 111 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cur_index D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-06T09:17:33+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0310s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('造雾机','','','20','20','./Public/upload/images/1908/06/091730570060003783.jpg','','1565054252') [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T09:17:34+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0310s ]
+
+[ 2019-08-06T09:17:34+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2019-08-06T09:54:27+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0326s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0356s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0316s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0366s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0386s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0598s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0756s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T14:03:57+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0710s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:04:05+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0840s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 25,25   [ RunTime:0.3850s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:04:13+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 50,25   [ RunTime:0.0980s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:04:21+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:04:33+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0330s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0550s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0800s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-08-06T14:07:37+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.6300s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2670s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.1300s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.1280s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:1.2341s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.6260s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:2.4331s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:3.6422s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.6310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:1.2271s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.6220s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.6340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:1.2211s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-08-06T14:07:39+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2660s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1300s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:07:40+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:07:42+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2590s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.1290s ]
+
+[ 2019-08-06T14:08:07+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1214s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2636s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1286s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 21  [ RunTime:0.1388s ]
+
+[ 2019-08-06T14:08:19+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1298s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2582s ]
+NOTIC: [8] Undefined index: field D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 111 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cur_index D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-06T14:08:27+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2750s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.1320s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('Ø32毛发收集器','','','21','21','./Public/upload/images/1908/06/140819462324004096.jpg','','1565071704') [ RunTime:0.1350s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.6310s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1290s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:08:28+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1280s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2700s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1280s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.1280s ]
+
+[ 2019-08-06T14:08:29+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1330s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:08:36+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1360s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2580s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.1300s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.1290s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.1310s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.1290s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.1350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.1330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:1.2471s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.6340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1440s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1270s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1280s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.1270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:08:48+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1760s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.8540s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1650s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1730s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T14:08:50+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1370s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2750s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1320s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.1290s ]
+
+[ 2019-08-06T14:08:52+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.7780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:08:55+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1284s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2558s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1166s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 21  [ RunTime:0.6742s ]
+
+[ 2019-08-06T14:08:58+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1212s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2666s ]
+NOTIC: [8] Undefined index: field D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 111 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cur_index D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-08-06T14:09:03+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1300s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2590s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.1290s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('Ø40毛发收集器','','','21','21','./Public/upload/images/1908/06/140858938103009678.jpg','','1565071742') [ RunTime:0.1330s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1330s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1290s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-08-06T14:09:05+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1290s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2780s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.1290s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('Ø40毛发收集器','','','21','21','./Public/upload/images/1908/06/140858938103009678.jpg','','1565071742') [ RunTime:0.1290s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.1280s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1280s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T14:09:06+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0760s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-08-06T14:09:06+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0340s ]
+
+[ 2019-08-06T14:09:36+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 21  [ RunTime:0.0310s ]
+
+[ 2019-08-06T14:09:40+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: field D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\AdminController.class.php 第 111 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cur_index D:\install\phpstudy\WWW\newsapxl\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T14:09:43+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0360s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('Ø80毛发收集器','','','21','21','./Public/upload/images/1908/06/140940361778007434.jpg','','1565071783') [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: info D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T14:09:44+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1120s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0330s ]
+
+[ 2019-08-06T14:09:45+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0960s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2019-08-06T14:09:48+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0680s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0320s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-08-06T16:45:22+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 25,25   [ RunTime:0.3700s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0390s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-08-06T16:45:29+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0370s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0390s ]
+NOTIC: [8] Undefined variable: where D:\install\phpstudy\WWW\newsapxl\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0530s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0540s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0320s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0580s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0300s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-08-06T17:53:01+08:00 ] ::1 /newsapxl/admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0640s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:5.1063s ]
+

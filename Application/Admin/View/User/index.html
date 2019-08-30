@@ -1,0 +1,225 @@
+		<script src="__PUBLIC__/plugins/My97DatePicker/WdatePicker.js"></script>
+        <div class="pageheader notab">
+            <h1 class="pagetitle">用户管理</h1>
+            <span class="pagedesc">管理商城中的用户信息</span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+			<div class="tableoptions">        
+				<form method="post">
+					等级:
+					<select name="level" default="{$_GET['level']}" style="width:90px; min-width:0;">
+						<option value="">全部</option>
+						<volist name="_CFG['level']" id="vo">
+						<option value="{$key}">{$vo.name}</option>
+						</volist>
+					</select>
+					编号:
+					<input type="text" name="id" value="{$_GET['id']}" class="smallinput" style="width:100px;" />
+					微信昵称:
+					<input type="text" name="nickname" value="{$_GET['nickname']}" class="smallinput" style="width:300px;" />
+					<input type="submit" value="查找" />
+				</form>
+			</div><!--tableoptions-->
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+				<thead>
+					<tr>
+						<th class="head1">
+							<a href="<?php if($_GET['order'] == 'id' && $_GET['type'] == 'desc'){
+								echo U('index?order=id&type=asc');
+							}else{
+								echo U('index?order=id&type=desc');
+							}?>">
+							编号
+							<?php if($_GET['order'] == 'id' && $_GET['type'] == 'desc')echo '↑';else echo '↓';?>
+							</a>
+						</th>
+						<th class="head1">头像</th>
+						<th class="head0">昵称</th>
+						<th class="head0">电话</th>
+						<th class="head1">等级</th>
+						<th class="head0">
+							<a href="<?php if($_GET['order'] == 'sub_time' && $_GET['type'] == 'desc'){
+								echo U('index?order=sub_time&type=asc');
+							}else{
+								echo U('index?order=sub_time&type=desc');
+							}?>">
+							关注日期
+							<?php if($_GET['order'] == 'sub_time' && $_GET['type'] == 'desc')echo '↑';else echo '↓';?>
+							</a>
+						</th>
+						<th class="head0">
+							<a href="<?php if($_GET['order'] == 'agent1' && $_GET['type'] == 'desc'){
+								echo U('index?order=agent1&type=asc');
+							}else{
+								echo U('index?order=agent1&type=desc');
+							}?>">
+							一级下线数
+							<?php if($_GET['order'] == 'agent1' && $_GET['type'] == 'desc')echo '↑';else echo '↓';?>
+							</a>
+						</th>
+						<th class="head0">
+							<a href="<?php if($_GET['order'] == 'agent2' && $_GET['type'] == 'desc'){
+								echo U('index?order=agent2&type=asc');
+							}else{
+								echo U('index?order=agent2&type=desc');
+							}?>">
+							二级下线数
+							<?php if($_GET['order'] == 'agent2' && $_GET['type'] == 'desc')echo '↑';else echo '↓';?>
+							</a>
+						</th>
+						<th class="head0">
+							<a href="<?php if($_GET['order'] == 'agent3' && $_GET['type'] == 'desc'){
+								echo U('index?order=agent3&type=asc');
+							}else{
+								echo U('index?order=agent3&type=desc');
+							}?>">
+							三级下线数
+							<?php if($_GET['order'] == 'agent3' && $_GET['type'] == 'desc')echo '↑';else echo '↓';?>
+							</a>
+						</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.id}</td>
+						<td><img src="{$vo.headimg}" style="width:50px; height:50px; border-radius:25px;" /></td>
+						<td>{$vo.nickname}</td>
+						<td>{$vo.mobile|default='-'}</td>
+						<td>{$_CFG['level'][$vo['level']]['name']}</td>
+						<td><if condition="$vo['sub_time'] gt 0">{$vo.sub_time|date="Y-m-d",###}<else/>-</if></td>
+						<td>{$vo.agent1}</td>
+						<td>{$vo.agent2}</td>
+						<td>{$vo.agent3}</td>
+						<td>
+							<a href="{:U('detail?id='.$vo['id'])}">详细信息</a>
+							|
+							<a href="javascript:;" onclick="editmodel({$vo['id']});">修改库存</a>
+							|
+							<a href="{:U('setParent?id='.$vo['id'])}">设定上级</a>
+						</td>
+					</tr>
+					</volist>
+				</tbody>
+			</table>
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+			</div>
+        
+        </div><!--contentwrapper-->
+        <style>
+			.m-main{width:80%;margin:0 auto;}
+			.m-xian{width:100%;height:20px;border-bottom:1px solid #ff6100;}
+			.m-box{width:100%;height:35px;border:1px solid #ddd;margin-top:10px;line-height:35px;font-size:15px;}
+			.m-label{width:30%;text-align:center;float:left;border-right:1px solid #ddd;}
+			.m-text{width:69%;line-height:35px;float:left;}
+			
+			.m-text select{width:95%;border:none;line-height:32px;padding-left:5%;font-size:15px;padding-top:10px;}
+			.m-text input[type=text]{width:95%;border:none;line-height:33px;padding-left:5%;font-size:15px;}
+			
+		</style>
+		<!-- 添加修改菜单模态框开始 -->
+		<div class="m-main" id="bjy-div" style="display: none">
+			<div class="m-xian"></div>
+			<div class="m-box">
+				<div class="m-label">
+					<span>产品</span>
+				</div>
+				<div class="m-text">
+					<select name="product" id="product" onchange="getAttr(this);">
+						<option value="">--请选择产品--</option>
+						<foreach name="product" item="v" key="k">
+							<option value="{$v['id']}">{$v['title']}</option>
+						</foreach>
+					</select>
+				</div>
+			</div>
+			
+			<div class="m-box" id="changeHtype" style="display:none">
+				
+			</div>
+			<div class="m-box">
+				<div class="m-label">
+					<span>库存</span>
+				</div>
+				<div class="m-text">
+					<input type="text" name="nums" id="nums" class="" value="" placeholder="填写正负数增加或减少" />
+				</div>
+			</div>
+		</div>
+		<link rel="stylesheet" href="__PUBLIC__/layer/skin/layer.css" type="text/css" />
+		<script src="__PUBLIC__/layer/layer.js" type="text/javascript"></script>
+		<!-- 添加修改菜单模态框结束 -->
+		<script>
+			var $ = jQuery;
+			var product_id;
+			function editmodel(id){
+				var title = '修改ID:'+id+'用户的库存';
+				layer.open({
+					type: 1,
+					title: title,
+					area: ['380px', '270px'],
+					content: $("#bjy-div"),
+					btn: ['确定', '取消'],
+					yes:function(){
+						var data = {
+							user_id:id,
+							product_id:product_id,
+							attr:$('#attr option:selected').val(),
+							nums:$('#nums').val(),
+						}
+						console.log(data);
+						if(data.product_id == ''){
+							layer.msg('请选择产品');
+							return;
+						}
+						if(data.attr == '' && data.attr!=undefined){
+							layer.msg('请选择产品属性');
+							return;
+						}
+						if(data.nums == ''){
+							layer.msg('请输入库存增加或减少的数量');
+							return;
+						}
+						$.post("{:U('updateStock')}",data,function(d){
+							if(d){
+								console.log(d);
+								if(d){
+									layer.alert(d.info, function(){
+										layer.closeAll();
+										location.reload();
+									});
+								}
+							}else{
+								layer.msg('网络异常');
+							}
+						});
+					},
+					cancel:function(){
+					}
+				});
+			}
+			
+			function getAttr(obj){
+				product_id = $(obj).val();
+				var data = {product_id:product_id}
+				console.log(data);
+				$.post("{:U('getAttr')}",data,function(d){
+					if(d){
+						console.log(d);
+						if(d.status){
+							$('#changeHtype').html('');
+							$('#changeHtype').append(d.info);
+							$('#changeHtype').show();
+						}else{
+							$('#changeHtype').hide();
+						}
+					}else{
+						layer.msg('网络异常');
+					}
+				})
+			}
+		</script>

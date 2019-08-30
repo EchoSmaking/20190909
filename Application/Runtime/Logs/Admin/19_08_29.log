@@ -1,0 +1,10 @@
+[ 2019-08-29T04:17:11+08:00 ] 220.175.54.251 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+

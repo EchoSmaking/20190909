@@ -1,0 +1,351 @@
+[ 2019-07-19T17:08:24+08:00 ] 113.110.214.200 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+
+[ 2019-07-19T17:08:24+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:08:30+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:08:38+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+
+[ 2019-07-19T17:08:39+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: info D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\AdminController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:08:44+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0938s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1250s ]
+NOTIC: [8] Undefined index: pid D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 116 行.
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0 ORDER BY sort desc  [ RunTime:0.0781s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pid D:\wwwroot\ys8888cn\wwwroot\Application\Runtime\Cache\Admin\21058cfef33750ecc9a5ae39b1e1f0e4.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:08:48+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.2188s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0469s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:09:43+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: info D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:09:44+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0156s ]
+
+[ 2019-07-19T17:09:45+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:10:03+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 13  [ RunTime:0.0000s ]
+
+[ 2019-07-19T17:17:47+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.1094s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0625s ]
+SQL: INSERT INTO `dd_paper` (`title`,`keyword`,`describe`,`store_cate`,`cate_tree`,`pic`,`body`,`create_time`) VALUES ('我司参加第五届中国国际温泉养生文化节','Enter keyword(s)','','13','13','','<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\">2018年12月5日-7日，我司成员赴大连参加全国温泉旅游行业盛事第五届中国温泉旅游推广季第四届金汤奖启动暨2018第二届大连金普新区国际温泉养生文化节。</span></p><p style=\"text-align:center\"><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\"><img src=\"./Public/upload/image/20190719/1563527653.png\" title=\"1563527653.png\" alt=\"4355e4ac4d48a58467ba0ceb1dc9ac1.png\"/></span></p><p><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 2px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\">由中国旅游协会温泉旅游分会、大连金普新区管委会主办，辽宁省冰雪温泉旅游协会、金石滩国家旅游度假区管委会、金汤奖组委会承办的第五届中国温泉旅游推广季、第四届金汤奖启动暨2018第二届大连金普新区金汤国际温泉养生文化节大连金石滩国家旅游度假区举行。</span></span></p><p style=\"text-align:center\"><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 2px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\"><img src=\"./Public/upload/image/20190719/1563527764.jpg\" title=\"1563527764.jpg\" alt=\"f6f558fc79d6431fe7240387691d4dc.jpg\"/></span></span></p><p><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 2px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\">每两年举办一届的金汤奖已成为了温泉旅游行业权威奖项。自2013年创办以来，累计有一千多家温泉及相关企业报名参加。携前三届积淀的巨大品牌影响力，第四届金汤奖在12月6日举行了盛大的启动仪式。</span></span></span></p><p><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 2px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span></p><p style=\"text-align:center\"><img src=\"./Public/upload/image/20190719/1563527841.jpg\" title=\"1563527841.jpg\" alt=\"5y27.jpg\"/></p><p><span style=\"color: rgb(90, 90, 90); font-family: SimSun; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 2px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\"><span style=\"margin: 0px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei UI&quot;, &quot;Microsoft YaHei&quot;, Arial, sans-serif; font-size: 15px; letter-spacing: 0.544px; line-height: 24px; text-align: justify; widows: 1; background-color: rgb(255, 255, 255);\"></span></span></span><br/></p>','1563527865') [ RunTime:0.1094s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0781s ]
+SQL: SELECT * FROM `dd_product_cate`  [ RunTime:0.1094s ]
+NOTIC: [8] Undefined variable: info D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:17:49+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=upload&event=setPic&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.1094s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.2188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-19T17:17:49+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=get_child_cates&id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0781s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `dd_product_cate` WHERE `pid` = 0  [ RunTime:0.0469s ]
+
+[ 2019-07-19T17:17:50+08:00 ] 113.110.214.200 /admin.php?m=Admin&c=Paper&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dd_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `dd_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `dd_paper` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `dd_paper` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\ys8888cn\wwwroot\Application\Admin\Controller\PaperController.class.php 第 11 行.
+SQL: SELECT * FROM `dd_paper` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `dd_product_cate` [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `dd_product_cate` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

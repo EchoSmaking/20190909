@@ -1,0 +1,50 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">编辑内容</h1>
+            <span class="pagedesc">请认真编辑任务的各项信息</span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+        
+        
+            <form class="stdform stdform2" method="post">
+				<p>
+					<label>任务标题</label>
+					<span class="field"><input type="text" name="title" id="title" value="{$info.title}" class="smallinput" /></span>
+				</p>
+				<p>
+					<label>奖励类型</label>
+					<span class="field">
+						<select name="way" default="{$info['way']}">
+							<option value="0">请选择</option>
+							<option value="1">奖励账户积分</option>
+							<option value="2">奖励账户金额</option>
+						</select>
+					</span>
+				</p>
+				<p>
+					<label>奖励金额</label>
+					<span class="field"><input type="text" name="value" id="value" value="{$info.value}" class="smallinput" /></span>
+				</p>
+				<p>
+					<label>任务详情</label>
+					<span class="field">
+						<textarea name="info" id="info" class="longinput" style="margin: 0px; height: 400px; width: 693px;">{$info.info}</textarea>
+					</span>
+				</p>
+				
+				
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+			</form>
+			<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.config.js"></script>
+			<script src="__PUBLIC__/plugins/ueditor1.4.3/ueditor.all.min.js"></script>
+			<script>
+				ue = UE.getEditor('info');
+			</script>
+        
+        </div><!--contentwrapper-->
+        

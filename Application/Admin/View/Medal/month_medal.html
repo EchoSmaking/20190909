@@ -1,0 +1,86 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">勋章等级设置</h1>
+            <span class="pagedesc">设置商城月度勋章等级和条件</span>
+            
+        </div><!--pageheader-->
+        <style>
+		.back{
+			width: auto;
+			margin: 0;
+			font-weight: bold;
+			color: #666;
+			border: 1px solid #ccc;
+			background: #eee;
+			padding: 7px 10px;
+			-moz-box-shadow: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			margin-left: 5px;
+			-moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			border-radius: 2px;
+		}
+		</style>
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+			<div class="tableoptions">                    
+				<input type="button" class="radius3" onclick="add_level()" value="增加等级"/>
+			</div><!--tableoptions-->
+            <form class="stdform stdform2" method="post">
+				<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+                    <thead>
+                        <tr>
+                            <th rowspan="1" class="head1">等级</th>
+							<th colspan="1" class="head1">自有积分</th>
+							<th colspan="1" class="head1">一阶积分</th>
+							<th colspan="1" class="head1">二阶积分</th>
+							<th colspan="1" class="head1">月度一阶比例</th>
+							<th colspan="1" class="head1">月度二阶阶比例</th>
+							<th colspan="1" class="head1">操作</th>
+						</tr>
+                    </thead>
+                    <tbody>
+
+							<volist name="_month_medal" id="vo">
+							<tr>
+								<td><input type="text" style="width:100px" name="name[]" value="{$vo.name}" /></td>
+								<td><input type="text" style="width:100px" name="self_point[]" value="{$vo.self_point}" /></td>
+								<td><input type="text" style="width:100px" name="s1_point[]" value="{$vo.s1_point}" /></td>
+								<td><input type="text" style="width:100px" name="s2_point[]" value="{$vo.s2_point}" /></td>
+								<td><input type="text" style="width:100px" name="s1_lv[]" value="{$vo.s1_lv}" /></td>
+								<td><input type="text" style="width:100px" name="s2_lv[]" value="{$vo.s2_lv}" /></td>
+								<td><a href="javascript:;" onclick="del_level(this)">删除</a></td>
+							</tr>
+							</volist>
+						
+                    </tbody>
+                </table>
+				<script>
+					function add_level(){
+						//return false;
+						html = '<tr>'
+							   +' <td><input type="text" style="width:100px" name="name[]" value="{$vo.name}" /></td>'
+							   +' <td><input type="text" style="width:100px" name="self_point[]" value="{$vo.self_point}" /></td>'
+							   +' <td><input type="text" style="width:100px" name="s1_point[]" value="{$vo.s1_point}" /></td>'
+							   +' <td><input type="text" style="width:100px" name="s2_point[]" value="{$vo.s2_point}" /></td>'
+							   +' <td><input type="text" style="width:100px" name="s1_lv[]" value="{$vo.s1_lv}" /></td>'
+							   +' <td><input type="text" style="width:100px" name="s2_lv[]" value="{$vo.s2_lv}" /></td>'
+							   +'<td><a href="javascript:;" onclick="del_level(this)">删除</a></td>'
+							   +'</tr>';
+						
+						jQuery("#table2").find("tbody").append(html);
+					}
+					
+					function del_level(obj){
+						jQuery(obj).parent("td").parent("tr").remove();
+					}
+				</script>
+				<p class="stdformbutton">
+					<button class="submit radius2">提交</button>
+					<input type="button" class="back radius2" onclick="window.location.href=&#39;{:U('index')}&#39;" value="返回" />
+				</p>
+			</form>
+        
+        
+        </div><!--contentwrapper-->
+        

@@ -1,0 +1,57 @@
+﻿.quotebox{position: fixed;bottom: -60px;width: 100%;background: rgba(0,0,0, 0.5);z-index: 9999;transition: 0.2s;}
+.quotebox_active{
+	bottom: 0px;
+	transition: 0.2s;
+}
+.quotebox .quotebox_top{
+	position: relative;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.quotebox .quotebox_top p{color: #FFFFFF;font-size: 20px;}
+.quotebox .quotebox_top p span{color: yellow;font-size: 40px;margin-right: 40px;margin-left: 40px;}
+.quotebox .quotebox_top .meineng_bottom{font-size: 40px;width: 40px;height: 40px;display: inline-block;background:url(../images/meineng_bottom_03.png);position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.quotebox .quotebox_top .meineng_bottom_active{
+	background:url(../images/meineng_bottom_06.png);
+}
+.quotebox .xunjia {
+	height: 60px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.quotebox .xunjia select{
+	height: 30px;
+	border: 0px;
+	width: 150px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 3px;
+	padding-left: 20px;
+}
+.quotebox .xunjia input{
+	height: 30px;
+	line-height: 30px;
+	padding: 0px;
+	padding-left: 20px;
+	border: 0px;
+	float: left;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+.quotebox .xunjia button{
+	height: 30px;
+	line-height: 30px;
+	padding: 0px;
+	border: 0px;
+	width: 120px;
+	float: left;
+	cursor: pointer;
+	border-radius: 3px;
+	background: yellow;
+	color: #000;
+}
+
+

@@ -1,0 +1,90 @@
+        <div class="pageheader notab">
+            <h1 class="pagetitle">编辑</h1>
+            <span class="pagedesc">请认真编辑各项信息</span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+			
+        
+            <form method="post">
+				<style>
+				.form-table{ width:100%; background:#ddd;}
+				.form-table th,.form-table td{ padding:15px;}
+				.form-table th.title{ width:190px; background:#fcfcfc; color:#666; text-align:left;}
+				.form-table th small{ font-weight:normal; color:#999; display:block;}
+				.form-table td{ background:#fff; vertical-align:middle;}
+				</style>
+				<table class="form-table" cellspacing="1" border="0">
+					<input type="hidden" value="{$id}" name="id" />
+					<tr>
+						<th class="title">用户ID<small>请输入要检索的的用户ID或昵称进行检索</small></th>
+						<td>
+							<input type="text" value="{$info.id}" id="info_user" class="smallinput keyword" />
+							<input type="hidden" name="parent" id="parent" value="" class="smallinput" />
+						</td>
+					</tr>
+					<script>
+						var $ = jQuery;
+						///// SEARCH BOX ON FOCUS /////
+						jQuery('.keyword').bind('focusin focusout', function(e){
+						
+							var t = jQuery(this);
+							if(e.type == 'focusin' && t.val() == '请输入要检索的的用户ID或昵称') {
+								t.val('');
+							} else if(e.type == 'focusout' && t.val() == '') {
+								t.val('请输入要检索的的用户ID或昵称');	
+							}
+						});
+						
+						
+						jQuery('.keyword').autocomplete({
+							source: function( request, response ) {
+								jQuery.ajax({
+									url: "{:U('User/getUser')}",
+									dataType: "json",
+									data:{
+										user_id: request.term 
+									},
+									success: function( data ) {
+										response( $.map( data, function( item ) {
+											return {
+												value: item.id+'-'+item.nickname
+											}
+											$('#parent').val(item.id);
+										}));
+									}
+								});
+							},
+							select: function( event, ui ) {
+								var d = ui.item.value.split('-');
+								$('#parent').val(d[0]);
+							},
+						});
+						function subf(){
+							var info_user = $('#info_user').val();
+							var parent = $('#parent').val();
+							if(parent == ''){
+								if(info_user.indexOf("-")>0){
+									var d = info_user.split('-');
+									$('#parent').val(d[0]);
+								}else{
+									$('#parent').val(info_user);
+								}
+							}
+							return true;
+						}
+					</script>
+					
+				</table>
+					
+				
+				
+				<p class="stdformbutton">
+					<button class="submit radius2" onclick="return subf()">提交</button>
+					<input type="reset" class="reset radius2" value="重置" />
+				</p>
+			</form>
+
+        </div><!--contentwrapper-->
+        

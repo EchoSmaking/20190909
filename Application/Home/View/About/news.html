@@ -1,0 +1,132 @@
+﻿<include file="include/head" />
+<!--解决方案-->
+<section class="index_product index_product_case">
+    <div class="max_w1200">
+        <div class="index_product_l">
+            <div class="index_product_l_bt">
+                <h2>热泵设备</h2>
+					</div>
+					<div class="index_product_l_list">
+						<ul>
+														<li>
+								<a href="{:U('Product/airpump')}">空气源热泵<span></span></a>
+								 								<!--<div class="index_product_list_erji">
+									<p>
+										<a href="http://www.gdyznkj.com/article_list_336.html"><span></span>直热循环式空气能热水器</a>
+									</p>
+								</div>---->
+								 							</li>
+														<li>
+								<a href="{:U('Product/combinedpump')}">三集一体除湿热泵<span></span></a>
+								 							</li>
+														<li>
+								<a href="{:U('Product/electheater')}">电磁加热器<span></span></a>
+								 							</li>
+														<li>
+								<a href="{:U('Product/makingwave')}">造浪设备<span></span></a>
+								 							</li>
+														<li>
+								<a href="{:U('Product/makingmist')}">造雾机<span></span></a>
+								 							</li>
+														<li>
+								<a href="{:U('Product/otherproduct')}">电控柜<span></span></a>
+															</li>
+														<li>
+								<a href="{:U('Product/otherproduct')}">毛发过滤器<span></span></a>
+								 							
+								</li>
+                </ul>
+            </div>
+            <!-- 热门新闻 -->
+            <div class="index_product_l_new">
+    <div class="index_product_l_bt">
+        <h2>热门资讯</h2>
+    </div>
+    <div class="index_product_l_new_list">
+        <div id="kbmarquee_new_l">
+            <ul>
+			<volist name="news" id="vo">
+                <li>
+                    <a title="{$vo.title}" href="{:U('About/news',array('id'=>$vo['id']))}"><span></span>{$vo.title}</a>
+                </li>
+			</volist>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        new Marquee("kbmarquee_new_l", 0, 1, 412, 265, 40, 0, 1000, 22);
+    </script>
+</div>
+            <!-- 联系我们 -->
+            <div class="index_product_l_new">
+    <div class="index_product_l_bt">
+        <h2>联系艾普西龙</h2>
+    </div>
+    <div class="index_product_l_contact">
+        <div class="index_tel">
+            <img src="__PUBLIC__/picture/picture2/new_list_l_tel_03.png" alt="" />
+            <div class="index_tel_r">
+                <p>咨询热线：</p>
+                <p><span>138-2378-7738</span></p>
+            </div>
+        </div>
+        <div class="index_product_l_contact_qq">
+            <img src="__PUBLIC__/picture/picture2/new_list_03.png" alt="" />
+            <p>客服QQ：<span>3108866861</span></p>
+        </div>
+        <div class="index_product_l_contact_qq">
+            <img src="__PUBLIC__/picture/picture2/new_list_06.png" alt="" />
+            <p>邮箱：<span>apxl8888@163.com</span></p>
+        </div>
+        <div class="index_product_l_contact_list">
+        <ul>
+<li>
+<h4>公司地址</h4>
+<p>深圳市龙岗区坂田街道中宝通科技园B3-104</p>
+<p>联系人：杨小姐</p>
+<p>电话：<span>0755-28280823</span></p></li>
+
+</ul>
+        </div>
+    </div>
+</div>
+        </div>
+        <ul class="index_product_r tab_conbox" id="case_r">
+            <div class="case_r">
+                <div class="case_r_weizhi">
+                    <h2 class="case_r_weizhi_bt">艾普西龙新闻</h2>
+                    <p class="case_r_weizhi_r">您所在的位置：
+                    <a href="http://www.gdyznkj.com/">首页</a>
+                                                /<a href="{:U('About/news')}">新闻</a>
+                        
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="new_about">
+				<volist name="list" id="vo">
+                    <div class="new_about_bt">
+					
+					<h1>{$vo.title}</h1>
+					<br>
+					{$vo.body}
+                    
+
+                    </div>
+				</volist>
+                    <div class="new_about_next">
+                        <p>
+                                                    <a title="给大家介绍一下，这是我的女朋友@艾普西龙空气能热水器" href="http://www.gdyznkj.com/article_read_279.html">上一篇:</a>
+                            
+                        </p>
+                        <p>
+                                                    <a title="【广东艾普西龙节能科技有限公司】端午节放假通知" href="http://www.gdyznkj.com/article_read_349.html">下一篇:</a>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</section>
+<include file="include/foot" />

@@ -1,0 +1,90 @@
+<include file="include/head" />
+
+<!----------导航及图片结束----------->
+<!--------------核心部分开始 -------->
+<section class="index_product index_product_case">
+    <div class="max_w1200">
+<div class="index_product_l">
+            <div class="index_product_l_bt">
+                <h2>其他产品</h2>
+            </div>
+            <div class="index_product_l_list">
+                <ul>
+				<li>
+                        <a href="{:U('Product/otherproductinfo1')}">电控箱<span></span></a>
+                </li>
+				<li>
+                        <a href="{:U('Product/otherproductinfo2')}">不锈钢毛发聚集器<span></span></a>
+                </li>
+				<li>
+                        <a href="{:U('Product/otherproductinfo3')}">不锈钢水口<span></span></a>
+                </li>
+                </ul>
+            </div>
+            <!-- 热门新闻 -->
+            <div class="index_product_l_new">
+</div>
+            <!-- 联系我们 -->
+            <div class="index_product_l_new">
+    <div class="index_product_l_bt">
+        <h2>联系艾普西龙</h2>
+    </div>
+    <div class="index_product_l_contact">
+        <div class="index_tel">
+            <img src="__PUBLIC__/picture/picture2/new_list_l_tel_03.png" alt="" />
+            <div class="index_tel_r">
+                <p>咨询热线：</p>
+                <p><span>138-2378-7738</span></p>
+            </div>
+        </div>
+        <div class="index_product_l_contact_qq">
+            <img src="__PUBLIC__/picture/picture2/new_list_03.png" alt="" />
+            <p>客服QQ：<span>3108866861</span></p>
+        </div>
+        <div class="index_product_l_contact_qq">
+            <img src="__PUBLIC__/picture/picture2/new_list_06.png" alt="" />
+            <p>邮箱：<span>apxl8888@163.com</span></p>
+        </div>
+        <div class="index_product_l_contact_list">
+        <ul>
+<li>
+<h4>公司地址</h4>
+<p>深圳市龙岗区坂田街道中宝通科技园B3-104</p>
+<p>联系人：杨小姐</p>
+<p>电话：<span>0755-28280823</span></p>
+<img src="__PUBLIC__/picture/picture2/20170912194802_989.png" alt="图片" width="13" height="20" /> </li>
+
+</ul>
+        </div>
+    </div>
+</div>
+        </div>
+        <ul class="index_product_r tab_conbox" id="case_r">
+            <div class="case_r">
+						<div class="case_r_weizhi">
+							<div class="case_r_weizhi_bt">其他产品</div>
+							<p class="case_r_weizhi_r">您所在的位置： <a href="{:U('Index/index')}">首页</a>
+								 /
+								<a href="{:U('Product/otherproduct')}">其他产品</a>
+								
+							</p>
+							<div class="clear"></div>
+						</div>
+						
+						<div class="product_about">
+						<div class="product_about_top">
+					
+						<volist name="list" id="vo">
+						<h2 style="text-align:center;">{$vo.title}</h2>
+						<div style="margin-top:8px;">{$vo.body}</div>
+						</volist>
+						</div>
+					</div>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</section>
+		
+<include file="include/chejian" />
+<include file="include/zizhi" />
+<include file="include/foot" />

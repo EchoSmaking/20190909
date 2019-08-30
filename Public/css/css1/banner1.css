@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.banner {width: 100%;position: relative; overflow:hidden;}
+.focus { width: 100%; position: relative; zoom: 1; overflow: hidden; z-index: 99; height:450px; overflow:hidden;}
+.f426x240, .f160x160 { width: 100%; overflow: hidden; z-index: 99;}
+/* flexslider */
+.flexslider{position:relative;height:450px;overflow:hidden;background:url(../images/loading.gif) 50% no-repeat;}
+.slides{position:relative;z-index:1;}
+.slides li{height:430px;}
+.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(../images/dot.png) right 0 no-repeat;cursor:pointer;}
+.flex-control-nav .flex-active{background-position:0 0;}
+
+.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+.flex-direction-nav li a{display:block;width:84px;height:84px;overflow:hidden;cursor:pointer;position:absolute;}
+.flex-direction-nav li a.flex-prev{left:40px;background:url(../images/nimg84_left.png) center center no-repeat;}
+.flex-direction-nav li a.flex-next{right:40px;background:url(../images/nimg84_right.png) center center no-repeat;}
